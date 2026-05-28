@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  wearesamod-landing:
+    container_name: wearesamod-landing
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - VITE_N8N_WEBHOOK_URL=${VITE_N8N_WEBHOOK_URL:-https://n8n.wearesamod.com/webhook/contact}
+    restart: unless-stopped
+    # Al igual que con n8n, no exponemos los puertos al Host para mantener la seguridad.
+    # El túnel de Cloudflare se comunicará directamente por la red proxy_network usando wearesamod-landing:80
+    networks:
+      - proxy_network
+
+networks:
+  proxy_network:
+    external: true

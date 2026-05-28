@@ -14,7 +14,7 @@ const status = ref('idle') // 'idle' | 'submitting' | 'success' | 'error'
 const errorMessage = ref('')
 
 // REPLACE THIS with your production n8n webhook URL (e.g. 'https://n8n.wearesamod.com/webhook/contact-form')
-const webhookUrl = ref('https://n8n.wearesamod.com/webhook/contact')
+const webhookUrl = ref(import.meta.env.VITE_N8N_WEBHOOK_URL || 'https://n8n.wearesamod.com/webhook/contact')
 
 const handleSubmit = async () => {
   if (status.value === 'submitting') return

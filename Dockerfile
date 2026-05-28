@@ -1,5 +1,7 @@
 # Stage 1: Build application
 FROM node:20-alpine AS build-stage
+ARG VITE_N8N_WEBHOOK_URL
+ENV VITE_N8N_WEBHOOK_URL=$VITE_N8N_WEBHOOK_URL
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
