@@ -40,9 +40,15 @@ const scrollTo = (id) => {
         <div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
           <button 
             @click="scrollTo('contact')" 
-            class="px-8 py-4 rounded-xl text-sm font-semibold tracking-wide text-white bg-gradient-to-r from-brand-primary to-brand-accent hover:shadow-neon-primary hover:scale-[1.02] transition-all duration-300 w-full sm:w-auto"
+            class="relative group px-8 py-4 rounded-xl text-sm font-semibold tracking-wide text-white bg-brand-primary hover:bg-brand-primary transition-all duration-300 hover:shadow-neon-primary overflow-hidden flex items-center justify-center w-full sm:w-auto"
           >
-            Agenda una Auditoría Gratis
+            <div class="absolute top-3 right-[80%] group-hover:top-12 group-hover:-right-4 z-10 w-40 h-40 rounded-full group-hover:scale-150 group-hover:opacity-50 duration-500 ease-out bg-purple-900"></div>
+            <div class="absolute top-3 right-[80%] group-hover:top-12 group-hover:-right-4 z-10 w-32 h-32 rounded-full group-hover:scale-150 group-hover:opacity-50 duration-500 ease-out bg-purple-800"></div>
+            <div class="absolute top-3 right-[80%] group-hover:top-12 group-hover:-right-4 z-10 w-24 h-24 rounded-full group-hover:scale-150 group-hover:opacity-50 duration-500 ease-out bg-purple-700"></div>
+            <div class="absolute top-3 right-[80%] group-hover:top-12 group-hover:-right-4 z-10 w-14 h-14 rounded-full group-hover:scale-150 group-hover:opacity-50 duration-500 ease-out bg-purple-600"></div>
+            <span class="z-10 relative flex items-center gap-2">
+              Agenda una Auditoría Gratis
+            </span>
           </button>
           
           <button 
