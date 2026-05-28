@@ -95,7 +95,7 @@ const handleSubmit = async () => {
               </div>
               <div>
                 <h4 class="text-xs font-bold text-white uppercase tracking-wider">Email</h4>
-                <a href="mailto:hola@wearesamod.com" class="text-sm text-brand-muted hover:text-white transition-colors">hola@wearesamod.com</a>
+                <a href="mailto:contacto@wearesamod.com" class="text-sm text-brand-muted hover:text-white transition-colors">contacto@wearesamod.com</a>
               </div>
             </div>
 
