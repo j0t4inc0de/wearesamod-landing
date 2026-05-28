@@ -9,7 +9,7 @@ import Contact from './components/Contact.vue'
 </script>
 
 <template>
-  <div class="min-h-screen bg-brand-dark flex flex-col selection:bg-brand-primary/30 selection:text-white">
+  <div class="min-h-screen bg-brand-dark flex flex-col selection:bg-brand-primary/30 selection:text-white overflow-x-hidden w-full relative">
     <!-- Navbar Navigation -->
     <Navbar />
 
