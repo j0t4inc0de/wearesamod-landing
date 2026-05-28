@@ -27,9 +27,9 @@ No necesitan un sitio web gigante de 20 páginas. Una estructura de **One-Page**
 | :--- | :--- | :--- |
 | **1. Hero Section** | Título de alto impacto. Ej: *"Automatizamos las tareas repetitivas de tu negocio con Inteligencia Artificial"* + Subtítulo enfocado en PYMEs en Los Ángeles/Chile. | Capturar la atención en 3 segundos y retener al usuario. |
 | **2. El Problema** | ¿Pierdes tiempo respondiendo las mismas preguntas en WhatsApp? ¿Tus cotizaciones tardan días? ¿Problemas de registro? | Empatizar con el dolor del dueño de la PYME. |
-| **3. La Solución** | Explicar sus servicios de forma visual y sencilla: Agentes de WhatsApp 24/7, Automatización de Facturas/SII, Sincronización de Inventarios. | Demostrar que tienen la cura para su dolor. |
-| **4. Casos de Uso / Demos** | Un pequeño video o widget interactivo que muestre, por ejemplo, cómo un bot de WhatsApp responde y agenda una cita en tiempo real. | Mostrar, no solo contar (crucial para IA). |
-| **5. Quiénes Somos** | Foto de ustedes dos, su perfil como Ingenieros Civiles/Ejecución en Informática. Resaltar que son profesionales locales de la Región del Biobío. | Generar confianza humana. Detrás de la IA hay ingenieros expertos. |
+| **3. La Solución** | Explicar sus servicios de forma visual y sencilla: Agentes de WhatsApp, Automatización de Facturas/SII, Sincronización de Inventarios, y Gestión de Reseñas. | Demostrar que tienen la cura para su dolor. |
+| **4. Casos de Uso / Demos** | Un simulador interactivo de chat que muestre, por ejemplo, cómo responde el agente inteligente a escenarios comunes del negocio en tiempo real. | Mostrar, no solo contar (crucial para IA). |
+| **5. Quiénes Somos** | Perfil de los co-fundadores e integración de su propio Agente Autónomo de Soporte virtual. Resaltar que son profesionales locales de la Región del Biobío. | Generar confianza humana y demostrar el uso de sus propios agentes. |
 | **6. CTA / Contacto** | Formulario simple o botón para *"Agendar Auditoría de Procesos Gratis (15 min)"*. | Conversión rápida. |
 
 ---
@@ -80,6 +80,9 @@ Para las PYMEs en Chile, el valor real de la IA no está en escribir poemas, sin
 3. **Automatización de Ventas y CRM:**
    - **El dolor:** Los leads que llegan por Facebook/Instagram Ads se quedan en el aire y nadie los contacta.
    - **La solución:** Sincronizar los leads con un CRM básico (ej. HubSpot, Kommo) y gatillar mensajes automáticos personalizados por WhatsApp al instante.
+4. **Automatización de Reseñas de Google (Posicionamiento SEO Local):**
+   - **El dolor:** Locales con atención física (restaurantes, centros de estética, clínicas, tiendas) pierden posicionamiento en Google Maps porque los clientes rara vez dejan reseñas, o las quejas no se gestionan en privado a tiempo.
+   - **La solución:** Tras completar un servicio o venta (POS/CRM), nuestro agente envía un WhatsApp amigable pidiendo feedback. Si la experiencia es positiva, enlaza a Google Maps; si es regular, abre una encuesta interna de soporte privado. El agente de IA responde además automáticamente cada nueva reseña en tiempo real.
 
 ---
 
