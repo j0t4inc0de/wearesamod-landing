@@ -88,7 +88,7 @@ const scrollTo = (id) => {
     >
       <div 
         v-if="isMenuOpen" 
-        class="absolute top-full left-0 w-full glass-panel border-b border-brand-border py-6 px-8 flex flex-col gap-5 md:hidden"
+        class="absolute top-full left-0 w-full bg-brand-dark/95 backdrop-blur-2xl border-b border-brand-border py-6 px-8 flex flex-col gap-5 md:hidden shadow-2xl"
       >
         <a @click.prevent="scrollTo('services')" href="#servicios" class="text-base font-medium text-brand-muted hover:text-white transition-colors py-1">Servicios</a>
         <a @click.prevent="scrollTo('method')" href="#metodo" class="text-base font-medium text-brand-muted hover:text-white transition-colors py-1">Nuestro Método</a>
