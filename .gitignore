@@ -21,7 +21,7 @@ dist-ssr
 
 # Antigravity CLI metadata
 .antigravitycli
-
+.documentos/
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
