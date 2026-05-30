@@ -25,7 +25,7 @@ const scrollTo = (id) => {
 
         <!-- Main Title -->
         <h1 class="text-4xl md:text-6xl font-extrabold text-white leading-tight tracking-tight mb-6">
-          Liberamos a tu empresa de las tareas
+          Liberamos a tu negocio de las tareas
           <span class="bg-gradient-to-r from-brand-primary via-brand-accent to-brand-secondary bg-clip-text text-transparent">
             repetitivas
           </span>
