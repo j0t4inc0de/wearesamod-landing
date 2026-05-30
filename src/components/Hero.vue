@@ -14,7 +14,6 @@ const scrollTo = (id) => {
     <div class="glow-orb w-[250px] h-[250px] md:w-[450px] md:h-[450px] bg-brand-accent bottom-10 -right-20"></div>
 
     <div class="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
-      
       <!-- Text content -->
       <div class="lg:col-span-7 flex flex-col text-center lg:text-left items-center lg:items-start">
         <!-- Badge -->
