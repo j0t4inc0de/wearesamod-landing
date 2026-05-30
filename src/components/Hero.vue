@@ -19,7 +19,7 @@ const scrollTo = (id) => {
         <!-- Badge -->
         <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full glass-panel border-brand-primary/20 text-xs font-semibold text-brand-primary mb-6 animate-fade-in">
           <span class="w-1.5 h-1.5 rounded-full bg-brand-secondary animate-ping"></span>
-          <span>Automatización & Agentes de IA en Biobío</span>
+          <span>Automatización & Agentes de IA en Biobíoo</span>
         </div>
 
         <!-- Main Title -->
