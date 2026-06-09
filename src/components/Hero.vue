@@ -23,16 +23,16 @@ const scrollTo = (id) => {
         </div> -->
 
         <!-- Main Title -->
-        <h1 class="text-4xl md:text-6xl font-extrabold text-white leading-tight tracking-tight mb-6">
-          Liberamos a tu negocio de las tareas
-          <span class="bg-gradient-to-r from-brand-primary via-brand-accent to-brand-secondary bg-clip-text text-transparent">
-            repetitivas
-          </span>
+        <h1 class="flex flex-col text-left mb-8 tracking-tight" style="line-height: 0.95;">
+          <span class="text-5xl sm:text-6xl md:text-7xl lg:text-[5.5rem] font-medium text-white" style="font-family: 'Canela Deck', 'Playfair Display', serif;">Liberamos</span>
+          <span class="text-5xl sm:text-6xl md:text-7xl lg:text-[5.5rem] italic text-brand-primary" style="font-family: 'Canela Deck', 'Playfair Display', serif;">a tu negocio,</span>
+          <span class="text-5xl sm:text-6xl md:text-7xl lg:text-[5.5rem] font-medium text-white" style="font-family: 'Canela Deck', 'Playfair Display', serif;">de las tareas</span>
+          <span class="text-5xl sm:text-6xl md:text-7xl lg:text-[5.5rem] font-medium text-white" style="font-family: 'Canela Deck', 'Playfair Display', serif;">repetitivas.</span>
         </h1>
 
         <!-- Subtitle -->
         <p class="text-lg md:text-xl text-brand-muted mb-10 max-w-2xl leading-relaxed">
-          Diseñamos e implementamos agentes de Inteligencia Artificial y flujos de trabajo autónomos que responden clientes, procesan facturas y conectan tus sistemas las 24 horas. Creado por ingenieros locales para PYMEs de Los Ángeles, Chile.
+        Automatizamos las tareas repetitivas de tu negocio con agentes de Inteligencia Artificial disponibles 24/7.
         </p>
 
         <!-- CTAs -->
@@ -146,6 +146,8 @@ const scrollTo = (id) => {
 </template>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
