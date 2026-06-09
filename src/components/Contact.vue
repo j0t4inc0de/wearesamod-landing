@@ -63,8 +63,8 @@ const handleSubmit = async () => {
         <div class="lg:col-span-5 flex flex-col justify-between">
           <div>
             <span class="text-xs font-bold uppercase tracking-widest text-brand-primary mb-3 block">Da el Primer Paso</span>
-            <h2 class="text-3xl md:text-5xl font-extrabold text-white mb-6">
-              Agendemos una <span class="bg-gradient-to-r from-brand-primary to-brand-accent bg-clip-text text-transparent">Conversación</span>
+            <h2 class="text-4xl md:text-6xl font-medium text-white mb-6 tracking-tight" style="font-family: 'Canela Deck', 'Playfair Display', serif;">
+              Agendemos una <span class="bg-gradient-to-r from-brand-primary to-brand-accent bg-clip-text text-transparent italic" style="font-family: 'Canela Deck', 'Playfair Display', serif;">Conversación</span>
             </h2>
             <p class="text-brand-muted text-sm leading-relaxed mb-8">
               Cuéntanos en qué consiste tu negocio y qué procesos manuales te gustaría eliminar. Te responderemos en menos de 24 horas hábiles.
@@ -253,3 +253,7 @@ const handleSubmit = async () => {
     </div>
   </section>
 </template>
+
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+</style>

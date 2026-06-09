@@ -35,8 +35,8 @@ const steps = [
       <div class="flex flex-col md:flex-row md:items-end justify-between mb-20">
         <div>
           <span class="text-xs font-bold uppercase tracking-widest text-brand-primary mb-3 block">El Camino al Ahorro de Tiempo</span>
-          <h2 class="text-3xl md:text-5xl font-extrabold text-white">
-            Nuestro <span class="bg-gradient-to-r from-brand-primary to-brand-accent bg-clip-text text-transparent">Método</span> de Trabajo
+          <h2 class="text-4xl md:text-6xl font-medium text-white tracking-tight" style="font-family: 'Canela Deck', 'Playfair Display', serif;">
+            Nuestro <span class="bg-gradient-to-r from-brand-primary to-brand-accent bg-clip-text text-transparent italic" style="font-family: 'Canela Deck', 'Playfair Display', serif;">Método</span> de Trabajo
           </h2>
         </div>
         <p class="text-brand-muted max-w-md mt-4 md:mt-0 leading-relaxed text-sm">
@@ -80,3 +80,7 @@ const steps = [
     </div>
   </section>
 </template>
+
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+</style>

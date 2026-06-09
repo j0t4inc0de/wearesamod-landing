@@ -112,8 +112,8 @@ const triggerBotResponse = (text) => {
   <section id="demo" class="py-24 relative px-6 md:px-12 bg-brand-darker/40">
     <div class="max-w-6xl mx-auto">
       <div class="text-center mb-16">
-        <h2 class="text-3xl md:text-5xl font-extrabold text-white mb-4">
-          Mira la IA en <span class="bg-gradient-to-r from-brand-primary to-brand-accent bg-clip-text text-transparent">Acción</span>
+        <h2 class="text-4xl md:text-6xl font-medium text-white mb-4 tracking-tight" style="font-family: 'Canela Deck', 'Playfair Display', serif;">
+          Mira la IA en <span class="bg-gradient-to-r from-brand-primary to-brand-accent bg-clip-text text-transparent italic" style="font-family: 'Canela Deck', 'Playfair Display', serif;">Acción</span>
         </h2>
         <p class="text-brand-muted max-w-xl mx-auto">
           Prueba nuestro simulador interactivo y descubre cómo automatizaríamos los flujos críticos de tu PYME.
@@ -255,3 +255,7 @@ const triggerBotResponse = (text) => {
     </div>
   </section>
 </template>
+
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+</style>

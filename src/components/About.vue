@@ -31,8 +31,8 @@ const founders = [
       <!-- Section Header -->
       <div class="text-center mb-16">
         <span class="text-xs font-bold uppercase tracking-widest text-brand-primary mb-3 block">Detrás de la IA</span>
-        <h2 class="text-3xl md:text-5xl font-extrabold text-white mb-4">
-          Nosotros somos <span class="bg-gradient-to-r from-brand-primary to-brand-accent bg-clip-text text-transparent">Samod</span>
+        <h2 class="text-4xl md:text-6xl font-medium text-white mb-4 tracking-tight" style="font-family: 'Canela Deck', 'Playfair Display', serif;">
+          Nosotros somos <span class="bg-gradient-to-r from-brand-primary to-brand-accent bg-clip-text text-transparent" style="font-family: 'Canela Deck', 'Playfair Display', serif;">Samod</span>
         </h2>
         <p class="text-brand-muted max-w-xl mx-auto">
           Un equipo de profesionales y agentes inteligentes dedicados a resolver problemas reales a través del software.
@@ -40,7 +40,7 @@ const founders = [
       </div>
 
       <!-- Founders Layout -->
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch mb-16">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch mb-10">
         <div 
           v-for="founder in founders" 
           :key="founder.name"
@@ -72,21 +72,10 @@ const founders = [
           </div>
         </div>
       </div>
-
-      <!-- Local Commitment Note -->
-      <div class="p-8 rounded-3xl glass-panel bg-brand-dark/40 border-brand-border max-w-3xl mx-auto text-center">
-        <h4 class="text-base font-bold text-white mb-2 flex items-center justify-center gap-2">
-          <svg class="w-5 h-5 text-brand-primary flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
-            <circle cx="12" cy="10" r="3"/>
-          </svg>
-          Apoyo local y presencial en la Región del Biobío
-        </h4>
-        <p class="text-xs text-brand-muted leading-relaxed">
-          A diferencia de agencias remotas extranjeras, nosotros vamos a tu oficina en Los Ángeles, conversamos de tus procesos cara a cara, entendemos las complejidades del mercado chileno (como la contabilidad local o el uso intensivo de WhatsApp) y te brindamos soporte técnico inmediato.
-        </p>
-      </div>
-
     </div>
   </section>
 </template>
+
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+</style>

@@ -33,8 +33,8 @@ const services = [
       
       <!-- Section Header -->
       <div class="text-center mb-20">
-        <h2 class="text-3xl md:text-5xl font-extrabold text-white mb-4">
-          Nuestras <span class="bg-gradient-to-r from-brand-primary to-brand-accent bg-clip-text text-transparent">Soluciones</span>
+        <h2 class="text-4xl md:text-6xl font-medium text-white mb-4 tracking-tight" style="font-family: 'Canela Deck', 'Playfair Display', serif;">
+          Nuestras <span class="bg-gradient-to-r from-brand-primary to-brand-accent bg-clip-text text-transparent italic" style="font-family: 'Canela Deck', 'Playfair Display', serif;">Soluciones</span>
         </h2>
         <p class="text-brand-muted max-w-xl mx-auto">
           Diseñamos flujos eficientes adaptados a las necesidades y tamaño de tu empresa.
@@ -111,3 +111,7 @@ const services = [
     </div>
   </section>
 </template>
+
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+</style>
