@@ -56,7 +56,7 @@ const scrollTo = (id) => {
         <a 
           @click.prevent="scrollTo('contact')"
           href="#contacto"
-          class="relative inline-flex items-center justify-center px-4 py-2 text-xs font-semibold tracking-wider text-white uppercase transition-all duration-300 rounded-lg glass-panel hover:border-brand-primary/50 hover:shadow-neon-primary"
+          class="relative inline-flex items-center justify-center px-4 py-2 text-xs font-semibold tracking-wider text-white uppercase transition-all duration-300 rounded-lg glass-panel shadow-neon-primary animate-pulse hover:animate-none hover:shadow-none hover:border-brand-primary/50"
         >
           Auditoría Gratis
         </a>
@@ -97,7 +97,7 @@ const scrollTo = (id) => {
         <a 
           @click.prevent="scrollTo('contact')"
           href="#contacto"
-          class="w-full text-center py-3 text-sm font-semibold tracking-wider text-white uppercase rounded-lg bg-gradient-to-r from-brand-primary to-brand-accent hover:shadow-neon-primary transition-all duration-300"
+          class="w-full text-center py-3 text-sm font-semibold tracking-wider text-white uppercase rounded-lg bg-gradient-to-r from-brand-primary to-brand-accent shadow-neon-primary animate-pulse hover:animate-none hover:shadow-none transition-all duration-300"
         >
           Auditoría Gratis
         </a>
