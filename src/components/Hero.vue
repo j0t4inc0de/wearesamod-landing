@@ -32,7 +32,7 @@ const scrollTo = (id) => {
 
         <!-- Subtitle -->
         <p class="text-lg md:text-xl text-brand-muted mb-10 max-w-2xl leading-relaxed">
-        Digitalizamos tu negocio con software a medida, sistemas POS, menús QR y automatización con Inteligencia Artificial para que vendas más y operes sin fricción.
+        Digitalizamos tu negocio con páginas web, menús QR, sistemas de caja y automatización con Inteligencia Artificial para que vendas más y operes sin fricción.
         </p>
 
         <!-- CTAs -->
@@ -64,7 +64,7 @@ const scrollTo = (id) => {
             <svg class="w-5 h-5 text-brand-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
             </svg>
-            <span class="text-xs font-semibold text-white uppercase tracking-wider">Web, Menú QR & POS</span>
+            <span class="text-xs font-semibold text-white uppercase tracking-wider">Web, Menú QR y Caja</span>
           </div>
           <div class="flex items-center gap-2">
             <svg class="w-5 h-5 text-brand-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">

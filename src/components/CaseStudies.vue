@@ -7,9 +7,9 @@ const cases = [
     url: 'https://sangucheriasanmartin.cl/',
     summary: 'Digitalización integral de su primer local físico: desde la presencia web para atraer clientes hasta la operación interna de pedidos y caja.',
     deliverables: [
-      { title: 'Landing Page', detail: 'Sitio web rápido y optimizado para captar clientes locales.' },
-      { title: 'Menú QR', detail: 'Carta digital interactiva para pedidos ágiles desde el celular.' },
-      { title: 'Sistema POS', detail: 'Punto de venta a medida para control de comandas y caja.' }
+      { title: 'Página Web', detail: 'Sitio web rápido y claro para atraer clientes de tu zona.' },
+      { title: 'Menú QR', detail: 'Carta digital interactiva para ver productos y precios desde el celular.' },
+      { title: 'Sistema de Caja y Pedidos', detail: 'Control simple de ventas, comandas y turnos en tiempo real.' }
     ]
   }
 ]
@@ -21,14 +21,11 @@ const cases = [
 
     <div class="max-w-7xl mx-auto relative z-10">
       <div class="text-center mb-16">
-        <span class="inline-block text-xs font-bold uppercase tracking-widest text-brand-secondary bg-brand-secondary/10 px-4 py-1.5 rounded-full border border-brand-secondary/20 mb-4">
-          Casos de Éxito
-        </span>
         <h2 class="text-4xl md:text-6xl font-medium text-white mb-4 tracking-tight" style="font-family: 'Canela Deck', 'Playfair Display', serif;">
-          Proyectos <span class="bg-gradient-to-r from-brand-primary to-brand-accent bg-clip-text text-transparent italic" style="font-family: 'Canela Deck', 'Playfair Display', serif;">Reales</span>
+          Nuestro Trabajo <span class="bg-gradient-to-r from-brand-primary to-brand-accent bg-clip-text text-transparent italic" style="font-family: 'Canela Deck', 'Playfair Display', serif;">Reciente</span>
         </h2>
         <p class="text-brand-muted max-w-xl mx-auto">
-          Soluciones funcionando hoy en negocios reales de Chile.
+          Mira nuestra última solución implementada en un local de Santiago.
         </p>
       </div>
 

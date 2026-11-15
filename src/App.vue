@@ -17,8 +17,8 @@ import Contact from './components/Contact.vue'
     <!-- Main Content Sections -->
     <main class="flex-grow">
       <Hero />
-      <ChatSimulator />
       <Services />
+      <ChatSimulator />
       <CaseStudies />
       <Method />
       <About />

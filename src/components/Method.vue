@@ -2,27 +2,27 @@
 const steps = [
   {
     num: '01',
-    title: 'Auditoría y Diagnóstico',
+    title: 'Diagnóstico del Negocio',
     subtitle: '15 minutos sin costo',
-    description: 'Analizamos cómo opera tu negocio hoy, dónde pierdes más tiempo en tareas repetitivas y trazamos las primeras oportunidades de automatización.'
+    description: 'Analizamos cómo opera tu local hoy, qué herramientas digitales necesitas (web, menú QR, POS) y dónde pierdes tiempo en tareas manuales.'
   },
   {
     num: '02',
-    title: 'Diseño del Flujo (Blueprint)',
-    subtitle: 'Planificación técnica',
-    description: 'Diagramamos el flujo en n8n detallando qué sistemas se conectan y qué agentes de IA intervienen para procesar las tareas específicas.'
+    title: 'Diseño de la Solución',
+    subtitle: 'Planificación a medida',
+    description: 'Definimos la arquitectura exacta: desde la experiencia de tus clientes y tu sistema de gestión hasta los flujos de automatización e IA que requiera tu operación.'
   },
   {
     num: '03',
-    title: 'Implementación y Dockerización',
+    title: 'Desarrollo y Despliegue',
     subtitle: 'Entornos seguros',
-    description: 'Desplegamos las soluciones en contenedores Docker y configuramos las llamadas seguras (webhooks). Todo queda aislado y protegido.'
+    description: 'Construimos tu plataforma o automatización, la desplegamos en infraestructura segura y la dejamos lista para operar en el día a día de tu negocio.'
   },
   {
     num: '04',
-    title: 'Soporte y Optimización',
+    title: 'Soporte y Evolución',
     subtitle: 'Mejora continua',
-    description: 'Monitoreamos las ejecuciones y refinamos las respuestas del agente de IA según los casos reales de tus clientes para garantizar un servicio óptimo.'
+    description: 'Acompañamos la puesta en marcha, monitoreamos el sistema y aplicamos mejoras según las necesidades reales de tu local y tus clientes.'
   }
 ]
 </script>
