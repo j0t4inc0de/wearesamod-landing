@@ -24,15 +24,15 @@ const scrollTo = (id) => {
 
         <!-- Main Title -->
         <h1 class="flex flex-col text-left mb-8 tracking-tight" style="line-height: 0.95;">
-          <span class="text-5xl sm:text-6xl md:text-7xl lg:text-[5.5rem] font-medium text-white" style="font-family: 'Canela Deck', 'Playfair Display', serif;">Liberamos</span>
+          <span class="text-5xl sm:text-6xl md:text-7xl lg:text-[5.5rem] font-medium text-white" style="font-family: 'Canela Deck', 'Playfair Display', serif;">Digitalizamos</span>
           <span class="text-5xl sm:text-6xl md:text-7xl lg:text-[5.5rem] italic text-brand-primary" style="font-family: 'Canela Deck', 'Playfair Display', serif;">a tu negocio,</span>
-          <span class="text-5xl sm:text-6xl md:text-7xl lg:text-[5.5rem] font-medium text-white" style="font-family: 'Canela Deck', 'Playfair Display', serif;">de las tareas</span>
-          <span class="text-5xl sm:text-6xl md:text-7xl lg:text-[5.5rem] font-medium text-white" style="font-family: 'Canela Deck', 'Playfair Display', serif;">repetitivas.</span>
+          <span class="text-5xl sm:text-6xl md:text-7xl lg:text-[5.5rem] font-medium text-white" style="font-family: 'Canela Deck', 'Playfair Display', serif;">para que vendas</span>
+          <span class="text-5xl sm:text-6xl md:text-7xl lg:text-[5.5rem] font-medium text-white" style="font-family: 'Canela Deck', 'Playfair Display', serif;">sin fricción.</span>
         </h1>
 
         <!-- Subtitle -->
         <p class="text-lg md:text-xl text-brand-muted mb-10 max-w-2xl leading-relaxed">
-        Automatizamos las tareas repetitivas de tu negocio con agentes de Inteligencia Artificial disponibles 24/7.
+        Digitalizamos tu negocio con software a medida, sistemas POS, menús QR y automatización con Inteligencia Artificial para que vendas más y operes sin fricción.
         </p>
 
         <!-- CTAs -->
@@ -64,7 +64,7 @@ const scrollTo = (id) => {
             <svg class="w-5 h-5 text-brand-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
             </svg>
-            <span class="text-xs font-semibold text-white uppercase tracking-wider">Integraciones con n8n</span>
+            <span class="text-xs font-semibold text-white uppercase tracking-wider">Web, Menú QR & POS</span>
           </div>
           <div class="flex items-center gap-2">
             <svg class="w-5 h-5 text-brand-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">

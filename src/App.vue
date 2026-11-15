@@ -3,6 +3,7 @@ import Navbar from './components/Navbar.vue'
 import Hero from './components/Hero.vue'
 import ChatSimulator from './components/ChatSimulator.vue'
 import Services from './components/Services.vue'
+import CaseStudies from './components/CaseStudies.vue'
 import Method from './components/Method.vue'
 import About from './components/About.vue'
 import Contact from './components/Contact.vue'
@@ -18,6 +19,7 @@ import Contact from './components/Contact.vue'
       <Hero />
       <ChatSimulator />
       <Services />
+      <CaseStudies />
       <Method />
       <About />
       <Contact />
